@@ -1,0 +1,12 @@
+.git
+.github
+.run
+**/dist/
+**/build/
+**/data/
+**/datadir/
+**/test/
+**/*.yml
+**/*.yaml
+**/*.md
+**/*Dockerfile

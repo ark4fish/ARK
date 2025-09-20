@@ -26,8 +26,8 @@ github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da/go.mod h1:eHEWzANqSi
 github.com/aead/siphash v1.0.1 h1:FwHfE/T45KPKYuuSAKyyvE+oPWcaQ+CUmFW0bPlM+kg=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
-github.com/ark4fish/ARK-SDK v0.0.0-20250920003253-4c3c78319f89 h1:9EkxNDq+IDlVmSYI61oSuwWrS9xg0D65Rb9hC7kfDCw=
-github.com/ark4fish/ARK-SDK v0.0.0-20250920003253-4c3c78319f89/go.mod h1:T8sP7CL9z6Lfg+aAAaQEFPvFr1u/dEzd4YOAmOCfIF4=
+github.com/ark4fish/ARK-SDK v0.0.0-20250920005847-a19469eab294 h1:rA6aWxZxU19uZ+bwuRtl8ehwuvixOi3XqFQ0AbvtOmw=
+github.com/ark4fish/ARK-SDK v0.0.0-20250920005847-a19469eab294/go.mod h1:opwbcc3RsTG78ta/1S2sHwXtYCDvY8KKwCgH+v3Ck4o=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
 github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 h1:DklsrG3dyBCFEj5IhUbnKptjxatkF07cF2ak3yi77so=
 github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2/go.mod h1:WaHUgvxTVq04UNunO+XhnAqY/wQc+bxr74GqbsZ/Jqw=

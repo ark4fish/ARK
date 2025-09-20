@@ -294,6 +294,29 @@ To compile the `arkd` binary from source, you can use the following Make command
 
 In the `envs/` folder you can find the several dev-mode configurations for `arkd` and `arkd-wallet`.
 
+## Run the batch settlement simulation (Unix/macOS/Linux)
+
+Run the `run-simulation` Make target to spin up the regtest Docker stack and execute the e2e test `TestBatchSettleMultipleClients`.
+
+### Prerequisites
+
+- Git, Docker, Make, Go 1.23+
+- Docker must be running
+- Nigiri (regtest) installed and running
+  - Install: https://nigiri.vulpem.com/
+  - Start:
+    ```sh
+    nigiri start
+    ```
+
+### Steps
+
+```sh
+git clone https://github.com/ark4fish/ARK.git
+cd ARK
+make run-simulation CLIENTS=10                # default: 5 clients, MIN=5, MAX=128
+
+```
 ## Support
 
 If you encounter any issues or have questions, please file an issue on our [GitHub Issues](https://github.com/ark4fish/ARK/issues) page.

@@ -18,9 +18,9 @@ replace github.com/ark4fish/ARK/pkg/kvdb => ./pkg/kvdb
 
 require (
 	github.com/ThreeDotsLabs/watermill-sql/v3 v3.1.0
-	github.com/ark4fish/ARK-SDK v0.0.0-20250920003253-4c3c78319f89
+	github.com/ark4fish/ARK-SDK v0.0.0-20250920005847-a19469eab294
 	github.com/ark4fish/ARK/api-spec v0.0.0-00010101000000-000000000000
-	github.com/ark4fish/ARK/pkg/ark-lib v0.0.0-20250920001621-e1a327a0f367
+	github.com/ark4fish/ARK/pkg/ark-lib v0.0.0-20250920005359-efe320cdbe9d
 	github.com/ark4fish/ARK/pkg/arkd-wallet v0.0.0-00010101000000-000000000000
 	github.com/ark4fish/ARK/pkg/arkd-wallet-btcwallet v0.0.0-00010101000000-000000000000
 	github.com/ark4fish/ARK/pkg/kvdb v0.0.0-20250606113434-241d3e1ec7cb

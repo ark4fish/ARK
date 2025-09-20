@@ -201,7 +201,7 @@ run-simulation:
 	@bash -c '\
 		CLIENTS="$${CLIENTS:-5}"; \
 		MIN="$${MIN:-$$CLIENTS}"; \
-		MAX="$${MAX:-128}"; \
+		MAX="$${MAX:-$$CLIENTS}"; \
 		echo "Running batch settlement test with $$CLIENTS clients (MIN=$$MIN, MAX=$$MAX)..."; \
 		go test -v -count=1 -timeout 1200s github.com/ark4fish/ARK/test/e2e -run TestBatchSettleMultipleClients -args -smoke -num-clients=$$CLIENTS; \
 	'
